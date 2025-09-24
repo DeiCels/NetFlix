@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.logo-container img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+h1{
+font-size: 28px;
+margin-bottom: 20px;
+
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #e50914;
+    font-size: 18px;
+}
+button[type="submit"]{
+    width: 110%;
+    padding: 12px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 18px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    transition: backgraund-color 0.3 ease;
+    
+}
+button[type="submit"]:hover{
+    background-color: #d30812;
+}
+.remember-forgot{
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.remember-forgot label{
+    display: flex;
+    align-items: center;
+
+}
+.remember-forgot input[type="checkbox"]{
+margin-right: 5px;
+}
+.signup-now{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.signup-now a{
+    color: #e50914;
+    text-decoration: none;
+}
+#success-message{
+    display: none;
+    color: #2ecc71;
+    font-size: 18px;
+    margin-top: 20px;
+}
